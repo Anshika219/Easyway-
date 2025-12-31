@@ -1,7 +1,7 @@
 # Code_Fusion
 AI based expenses tracker
-```mermaid
-flowchart TD
+` ` `mermaid
+graph TD
     A[User] --> B[Frontend UI<br/>(React / Streamlit)]
     B --> C[FastAPI Backend]
     C --> D[AI Processing Layer]
@@ -11,4 +11,4 @@ flowchart TD
     D --> E[Expense Data Structuring]
     E --> F[Budget Details Generation]
     F --> G[Frontend Display]
-```
+` ` `
