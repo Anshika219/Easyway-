@@ -56,7 +56,7 @@ if st.button("Extract Expense"):
                     BACKEND_URL,
                     data=data,
                     files=files,
-                    timeout=60
+                    timeout=120
                 )
 
                 if response.status_code == 200:
